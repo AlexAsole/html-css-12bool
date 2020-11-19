@@ -1,0 +1,22 @@
+[class*="col-"] {
+  border: 1px solid #000;
+  background: #ffc0cb;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
+
+[class*="col-"] .container [class*="col-"] {
+  height: 260px;
+  line-height: normal;
+  background: #f07f80;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.nested {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
