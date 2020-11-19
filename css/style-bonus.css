@@ -1,0 +1,32 @@
+[class*="col-"] {
+  height: calc(1170px / 12);
+  background: #000;
+}
+
+.green {
+  background: #1fa508;
+}
+
+.pink {
+  background: #f7bd98;
+}
+
+.yellow {
+  background: #dff610;
+}
+
+.gray {
+  background: #838383;
+}
+
+.blue {
+  background: #1021f7;
+}
+
+.brown {
+  background: #a76215;
+}
+
+.white {
+  background: #fff;
+}
